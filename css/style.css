@@ -95,8 +95,8 @@ h1{
 
 
  .producto-datalle-imagenes img {
-      width: 100%;
-      max-width: 15rem;
+      width: 40%;
+      max-width: 50%;
       margin-bottom: 10px;
       border: 1px solid #ccc;
       border-radius: 10px;
