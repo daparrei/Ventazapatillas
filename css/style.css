@@ -15,6 +15,11 @@ h1{
   font-family: 'Roboto', sans-serif;
 }
 
+.encabezado img {
+  background-color: transparent;
+
+}
+
 .titulo {
   flex: 1;
   text-align: center;
