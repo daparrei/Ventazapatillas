@@ -1,0 +1,6 @@
+# Archivos y carpetas que no deben subirse a Git
+.vscode/
+*.log
+.env
+node_modules/
+dist/
