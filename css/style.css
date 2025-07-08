@@ -163,6 +163,12 @@ h1{
   text-align: center;
 }
 
+.producto-datalle-imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .galeria-categoria, .galerias {
     max-width: 90vw;
   }
