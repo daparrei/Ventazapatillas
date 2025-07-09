@@ -1,0 +1,26 @@
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
+
+.encabezado {
+  @include flex-center(space-between, center);
+  padding: $espaciado-sm $espaciado-md;
+  background-color: $gris-claro;
+  font-family: $fuente-principal;
+
+  img {
+    background-color: transparent;
+  }
+}
+
+.titulo {
+  flex: 1;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.iconos img {
+  height: 24px;
+  margin-left: 15px;
+  cursor: pointer;
+}

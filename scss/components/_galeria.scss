@@ -1,0 +1,31 @@
+@use '../utilities/variables' as *;
+@use '../utilities/mixins' as *;
+@use '../utilities/extended' as *;
+
+.galeria {
+  @include flex-center(center, stretch, $espaciado-lg);
+  padding: $espaciado-md;
+  flex-wrap: wrap;
+}
+
+.galeria-categoria, .galerias {
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 300px;
+
+  h2 {
+    @extend %titulo-principal;
+  }
+
+  a {
+    display: block;
+    margin-bottom: $espaciado-sm;
+  }
+
+  img {
+    @extend %imagen-galeria;
+    @include imagen-hover;
+  }
+}

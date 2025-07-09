@@ -1,23 +1,118 @@
-h1{
-    font-size: 24px;
-    color: #333;
+@charset "UTF-8";
+.galeria-categoria h2, .galerias h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.galeria-categoria img, .galerias img {
+  width: 5rem;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Responsive para móviles */
+@media (max-width: 990px) {
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+  .producto-datalle-info a, .envio-pag-pagos a, .confirmacionOrder a {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #585758;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
     text-align: center;
-    margin-top: 20px;
-    font-family: 'Roboto', sans-serif;
+  }
+  .producto-datalle-imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .galeria-categoria, .galerias {
+    max-width: 90vw;
+  }
+}
+h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Estilos para el producto footer */
+.footerTexto {
+  margin-top: 50px;
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el producto datelle */
+.producto-datalle-main {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+
+.producto-datalle-imagenes {
+  flex: 1;
+}
+
+.producto-datalle-imagenes img {
+  width: 40%;
+  max-width: 50%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.producto-datalle-info {
+  flex: 1;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+}
+
+.producto-datalle-info h2 {
+  margin-top: 0;
+}
+
+.producto-datalle-talles span {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.producto-datalle-precio {
+  font-size: 24px;
+  color: #e91e63;
+  margin: 20px 0;
 }
 
 .encabezado {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0;
   padding: 10px 20px;
   background-color: #f5f5f5;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-
 .encabezado img {
   background-color: transparent;
-
 }
 
 .titulo {
@@ -33,143 +128,44 @@ h1{
   cursor: pointer;
 }
 
-/* Estilos para el main o seccion de galeraias */
 .galeria {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  align-items: stretch;
   gap: 30px;
+  padding: 20px;
   flex-wrap: wrap;
 }
+
 .galeria-categoria, .galerias {
-  flex: 1 1 250px; /* mínimo 250px, se adapta */
+  flex: 1 1 250px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  max-width: 300px; /* para que no se haga muy grande */
-}
-.galeria-categoria h2, .galerias h2 {
-  text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+  max-width: 300px;
 }
 .galeria-categoria a, .galerias a {
-  display: block; /* que el enlace ocupe todo el espacio */
+  display: block;
   margin-bottom: 10px;
 }
-
 .galeria-categoria img, .galerias img {
-  width: 5rem;
-  height: auto;
-  border-radius: 8px;
-  object-fit: cover;
   transition: transform 0.3s ease;
   cursor: pointer;
 }
-
 .galeria-categoria img:hover, .galerias img:hover {
   transform: scale(1.05);
 }
 
-
-/* Estilos para el producto datelle */
-
-.producto-datalle-main{
-     display: flex;
-      flex-direction: row;
-      gap: 20px;
-      padding: 20px;
-}
-
-
- .producto-datalle-imagenes {
-      flex: 1;
-    }
-
- .producto-datalle-imagenes img {
-      width: 40%;
-      max-width: 50%;
-      margin-bottom: 10px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-    }
-
-   .producto-datalle-info {
-      flex: 1;
-      padding: 10px;
-      background-color: #f7f7f7;
-      border-radius: 10px;
-    }
-
- .producto-datalle-info h2 {
-      margin-top: 0;
-    }
-
-.producto-datalle-talles span {
-      display: inline-block;
-      padding: 8px 12px;
-      margin: 5px;
-      border: 1px solid #aaa;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-.producto-datalle-precio {
-      font-size: 24px;
-      color: #e91e63;
-      margin: 20px 0;
-    }
-
-
-/* Estilos para el boton que se utiliza en todas las paginas */
-.producto-datalle-info a, .envio-pag-pagos a,.confirmacionOrder a {
+.producto-datalle-info a,
+.envio-pag-pagos a,
+.confirmacionOrder a {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
   background-color: #585758;
-  color: white;
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
 }
 
-/* Estilos para el producto footer */
-
-.footerTexto {
-  margin-top: 50px;
-  padding: 15px 20px;
-  background-color: #f5f5f5;
-  text-align: center;
-  font-size: 14px;
-  color: #666;
-  font-family: Arial, sans-serif;
-}
-
-
-/* Responsive para móviles */
-@media (max-width: 990px) {
-  .galeria {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-.producto-datalle-info a, .envio-pag-pagos a,.confirmacionOrder a {
-  display: flex;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #585758;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.producto-datalle-imagenes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .galeria-categoria, .galerias {
-    max-width: 90vw;
-  }
-}
+/*# sourceMappingURL=style.css.map */

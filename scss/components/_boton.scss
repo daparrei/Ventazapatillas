@@ -1,0 +1,7 @@
+@use '../utilities/mixins' as *;
+
+.producto-datalle-info a,
+.envio-pag-pagos a,
+.confirmacionOrder a {
+  @include boton-estilo;
+}
