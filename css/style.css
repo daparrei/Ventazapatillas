@@ -96,6 +96,12 @@ h1 {
   cursor: pointer;
 }
 
+.producto-datalle-talles span:hover {
+  background-color: #eee; /* Cambia el fondo */
+  border-color: #333; /* Cambia el color del borde */
+  color: #000; /* Cambia el color del texto si querés */
+}
+
 .producto-datalle-precio {
   font-size: 24px;
   color: #e91e63;
