@@ -1,0 +1,29 @@
+
+@use '../utilities/variables' as *;
+
+
+@mixin flex-center($justify: center, $align: center, $gap: 0) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+}
+
+@mixin boton-estilo {
+  display: inline-block;
+  margin-top: $espaciado-sm;
+  padding: $espaciado-sm $espaciado-md;
+  background-color: $gris-oscuro;
+  color: $blanco;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+@mixin imagen-hover {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

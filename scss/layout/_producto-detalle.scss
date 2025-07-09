@@ -1,0 +1,48 @@
+
+/* Estilos para el producto datelle */
+
+.producto-datalle-main{
+     display: flex;
+      flex-direction: row;
+      gap: 20px;
+      padding: 20px;
+}
+
+
+ .producto-datalle-imagenes {
+      flex: 1;
+    }
+
+ .producto-datalle-imagenes img {
+      width: 40%;
+      max-width: 50%;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+
+   .producto-datalle-info {
+      flex: 1;
+      padding: 10px;
+      background-color: #f7f7f7;
+      border-radius: 10px;
+    }
+
+ .producto-datalle-info h2 {
+      margin-top: 0;
+    }
+
+.producto-datalle-talles span {
+      display: inline-block;
+      padding: 8px 12px;
+      margin: 5px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+.producto-datalle-precio {
+      font-size: 24px;
+      color: #e91e63;
+      margin: 20px 0;
+    }

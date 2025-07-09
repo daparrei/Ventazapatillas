@@ -1,0 +1,15 @@
+@use '../utilities/variables' as *;
+
+
+%titulo-principal {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: $espaciado-sm;
+}
+
+%imagen-galeria {
+  width: 5rem;
+  height: auto;
+  border-radius: $radio-borde;
+  object-fit: cover;
+}
