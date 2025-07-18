@@ -23,7 +23,7 @@ Clase SEO:
 Comentarios Pre entrega 3
 
 
- 1) el section de Scrum debería ubicarse antes del footer
+ 1) el section de Scrum debería ubicarse antes del footer (no encontre nada)
  2) el nav puede mejorar incorporando enlaces clave como "Inicio", "Nosotros", "Productos", entre otros. 
  3) Dentro de la sección de productos, sería recomendable implementar un dropdown con filtros, lo que facilitaría la navegación de forma más clara e intuitiva, ya que actualmente moverse solo por "productos" resulta limitado.
  4)  En el apartado de "Talles disponibles", podrías utilizar checkboxes para una mejor experiencia de selecció
