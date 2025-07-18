@@ -117,9 +117,6 @@ h1 {
   background-color: #f5f5f5;
   font-family: "Roboto", sans-serif;
 }
-.encabezado img {
-  background-color: transparent;
-}
 
 .titulo {
   flex: 1;
@@ -132,6 +129,7 @@ h1 {
   height: 24px;
   margin-left: 15px;
   cursor: pointer;
+  background-color: black;
 }
 
 .galeria {
