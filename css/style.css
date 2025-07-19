@@ -102,7 +102,13 @@ h1 {
   color: #000; /* Cambia el color del texto si querés */
 }
 
-.producto-datalle-precio {
+.producto-datalle-imagenes img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.producto-datalle-precio, .galeria-categoria-zapitilla-precio {
   font-size: 24px;
   color: #e91e63;
   margin: 20px 0;
@@ -129,7 +135,7 @@ h1 {
   height: 24px;
   margin-left: 15px;
   cursor: pointer;
-  background-color: black;
+  background-color: #212529;
 }
 
 .galeria {
@@ -152,6 +158,34 @@ h1 {
   display: block;
   margin-bottom: 10px;
 }
+.galeria-categoria .galeria-categoria-zapitilla, .galerias .galeria-categoria-zapitilla {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #585758;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.galeria-categoria .galeria-categoria-zapitilla:hover, .galerias .galeria-categoria-zapitilla:hover {
+  transform: scale(1.1);
+}
+.galeria-categoria .galeria-categoria-zapitilla-descripcion, .galerias .galeria-categoria-zapitilla-descripcion {
+  font-size: 14px;
+  color: #585758;
+  margin: 10px 0;
+}
+.galeria-categoria .galeria-categoria-zapitilla-nombre, .galerias .galeria-categoria-zapitilla-nombre {
+  font-size: 18px;
+  font-weight: bold;
+  color: #585758;
+  margin: 10px;
+}
 .galeria-categoria img, .galerias img {
   transition: transform 0.3s ease;
   cursor: pointer;
@@ -162,7 +196,8 @@ h1 {
 
 .producto-datalle-info a,
 .envio-pag-pagos a,
-.confirmacionOrder a {
+.confirmacionOrder a,
+.galeria-categoria-zapitilla-boton {
   display: inline-block;
   margin-top: 10px;
   padding: 10px 20px;
