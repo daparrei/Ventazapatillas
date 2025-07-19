@@ -13,32 +13,36 @@
 </head>
 <body>
   <!-- CODIEGO DE PAGINA -->
-  <h1>ZAPATILLAS QUILMES</h1>
-
-  <!-- BLOQUE DE ENCABEZADO -->
-
+     
   <header class="encabezado"> 
-    <div class="titulo">Producto Catalogo</div>
-    <div class="iconos">
-      <img src="../img/Login.png" alt="Login" title="Login">
-      <img src="../img/Carrito.png" alt="Carrito" title="Carrito de compras">
+    <div class="titulo">
+        <h1>ZAPATILLAS QUILMES</h1>
     </div>
   </header>
     
   <!-- BLOQUE DE CATEGORIAS Y BUSCADOR  -->
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
         <ul class="navbar-nav"> 
-          <li class="nav-item dropdown">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="../pages/producto-detalle.html">Zapatillas</a>
+            </li>
+            <li class="nav-item dropdown ms-4">
             <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
               Hombre
             </button>
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Chalpa</a></li>
-              <li><a class="dropdown-item" href="#">FAST</a></li>
-              <li><a class="dropdown-item" href="#">Uban</a></li>
+              <li><a class="dropdown-item" href="../pages/producto-detalle.html">Chalpa</a></li>
+              <li><a class="dropdown-item" href="../pages/producto-detalle.html">FAST</a></li>
+              <li><a class="dropdown-item" href="../pages/producto-detalle.html">Uban</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -46,9 +50,9 @@
               Mujer
             </button>
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Zapa M 1</a></li>
-              <li><a class="dropdown-item" href="#">Zapa M 2</a></li>
-              <li><a class="dropdown-item" href="#">Zapa M 3</a></li>
+              <li><a class="dropdown-item" href="../pages/producto-detalle.html">Zapa M 1</a></li>
+              <li><a class="dropdown-item" href="../pages/producto-detalle.html">Zapa M 2</a></li>
+              <li><a class="dropdown-item" href="../pages/producto-detalle.html">Zapa M 3</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -56,20 +60,19 @@
               Niños
             </button>
             <ul class="dropdown-menu dropdown-menu-dark">
-              <li><a class="dropdown-item" href="#">Zapa Nene 1</a></li>
-              <li><a class="dropdown-item" href="#">Zapa Nene 2</a></li>
-              <li><a class="dropdown-item" href="#">Zapa Nene 3</a></li>
+              <li><a class="dropdown-item" href="../pages/producto-detalle.html">Zapa Nene 1</a></li>
+              <li><a class="dropdown-item" href="../pages/producto-detalle.html">Zapa Nene 2</a></li>
+              <li><a class="dropdown-item" href="../pages/producto-detalle.html">Zapa Nene 3</a></li>
             </ul>
-          <li class="nav-item dropdown">
-            <button class="btn btn-dark" data-bs-toggle="dropdown" aria-expanded="false">
-              Hot Sales
-            </button>
           </li>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2 " type="search" placeholder="Buscar zapatillas" aria-label="Search" >
+          <form class="d-flex" role="search">
+          <input class="form-control me-2 ms-3" type="search" placeholder="Buscar zapatillas" aria-label="Search" >
           <button class="btn btn-outline-info" type="submit">Buscar</button>
+        </ul>
+        <div class="iconos ms-auto">
+            <img src="../img/Login.png" alt="Login" title="Login">
+            <img src="../img/Carrito.png" alt="Carrito" title="Carrito de compras">
+        </div>
       </div>
     </div>
   </nav>

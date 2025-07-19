@@ -2,6 +2,7 @@
 
 .producto-datalle-info a,
 .envio-pag-pagos a,
-.confirmacionOrder a {
+.confirmacionOrder a,
+.galeria-categoria-zapitilla-boton {
   @include boton-estilo;
-}
+}  

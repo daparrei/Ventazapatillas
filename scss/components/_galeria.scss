@@ -14,6 +14,7 @@
   flex-direction: column;
   gap: 15px;
   max-width: 300px;
+  
 
   h2 {
     @extend %titulo-principal;
@@ -24,7 +25,32 @@
     margin-bottom: $espaciado-sm;
   }
 
-  img {
+ .galeria-categoria-zapitilla{
+    @include flex-center(center, center);
+    flex-direction: column;
+    text-align: center;
+    background-color: $blanco;
+    padding: $espaciado-sm;
+    border-radius: $radio-borde;
+    border: 1px solid $gris-oscuro;
+    @include imagen-hover
+  }
+
+  .galeria-categoria-zapitilla-descripcion {
+    font-size: 14px;
+    color: $gris-oscuro;
+    margin: $espaciado-sm 0;
+  }
+.galeria-categoria-zapitilla-nombre {
+    font-size: 18px;
+    font-weight: bold;
+    color: $gris-oscuro;
+    margin: $espaciado-sm;
+  }
+
+
+  
+ img {
     @extend %imagen-galeria;
     @include imagen-hover;
   }
