@@ -24,13 +24,13 @@ Comentarios Pre entrega 3
 
 
  1) el section de Scrum debería ubicarse antes del footer (no encontre nada)
- 2) el nav puede mejorar incorporando enlaces clave como "Inicio", "Nosotros", "Productos", entre otros. 
+ 2) el nav puede mejorar incorporando enlaces clave como "Inicio", "Nosotros", "Productos", entre otros.  (listo)
  3) Dentro de la sección de productos, sería recomendable implementar un dropdown con filtros, lo que facilitaría la navegación de forma más clara e intuitiva, ya que actualmente moverse solo por "productos" resulta limitado. (listo)
  4) El elegir medios de pago, aplicá estilos y centrado adecuado tanto para esos elementos como para el mensaje final de “Gracias por tu compra”. (listo)
  6)  También sería ideal simular una página de carrito y vincularla. (listo)
  7)  Recordá estructurar la navegación del sitio como vimos en clase, con secciones completas como "Home" (con información sobre la marca), "Productos" (como ya tenés) y una página adicional con información relevante sobre la empresa. (listo)
-  Como se trata de un e-commerce, es esperable que el sitio tenga más secciones, por lo que te recomiendo expandirlo lo máximo posible, manteniendo consistencia visual entre todas las páginas. 
-  8) A nivel técnico, el código SCSS necesita una mejor indentación, así como un uso más eficiente de & para evitar repeticiones. 
+  Como se trata de un e-commerce, es esperable que el sitio tenga más secciones, por lo que te recomiendo expandirlo lo máximo posible, manteniendo consistencia visual entre todas las páginas. (listo)
+  8) A nivel técnico, el código SCSS necesita una mejor indentación, así como un uso más eficiente de & para evitar repeticiones (listo)
   9) Asegurate de que el sitio sea completamente responsive, utilizando unidades relativas y media queries bien estructuradas. (listo)
   10) Finalmente, tu repositorio en GitHub debe incluir un .gitignore correctamente configurado. Con estos ajustes vas a lograr un proyecto más completo, profesional y funcional. (listo)
   
