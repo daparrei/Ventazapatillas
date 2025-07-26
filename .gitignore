@@ -4,3 +4,8 @@
 .env
 node_modules/
 dist/
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+# Mapas de CSS
+*.css.map
