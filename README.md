@@ -1,36 +1,68 @@
-# Ventazapatillas
-Preentrega 3
-Agrego informacion para asegurar que funciona todo
-
-Realizar la estructura final de la web.
-    1) Indentación del código (resuelto)
-    2) Todas las páginas deben tener el contenido estructurado y el estilo linkeado. (resuelto)
-Efectuar el estilo final de la web.
-    1) Responsive design y código SASS en el proyecto
-        - Cuando voy a datelle producto en la parte mobile las foto de la zapas deberian esta una debajo de la otra (resuelto)
-Realizar una correcta implementación de SASS.
-    1) Uso correcto del nesting, extend, los mixins, las variables y los operadores de lenguaje SASS. (resuelto)
-    2) Estilos avanzados: Genera una estructura de elementos dinámica aplicando transformaciones, transiciones y/o animaciones. 
-        - Voy animar cuando la persona pasar el mouse por el talle que cambie de color (resuelto)
-    3) Crear una arquitectura de carpetas de SCSS que respete las buenas prácticas del preprocesador. 
-Generar la carga en un repositorio en GitHub.
-    1)  Utilizar .gitignore (listo)
-    2)  Mostrar los commits usados para actualizar/versionar el código (listo)
-Clase SEO:
-1) Revisar los ALT
-2) Cargar lo Metalink
-
-Comentarios Pre entrega 3
+# CURSO JAVA SCRIPT 
+Manual de Uso
 
 
- 1) el section de Scrum debería ubicarse antes del footer (no encontre nada)
- 2) el nav puede mejorar incorporando enlaces clave como "Inicio", "Nosotros", "Productos", entre otros.  (listo)
- 3) Dentro de la sección de productos, sería recomendable implementar un dropdown con filtros, lo que facilitaría la navegación de forma más clara e intuitiva, ya que actualmente moverse solo por "productos" resulta limitado. (listo)
- 4) El elegir medios de pago, aplicá estilos y centrado adecuado tanto para esos elementos como para el mensaje final de “Gracias por tu compra”. (listo)
- 6)  También sería ideal simular una página de carrito y vincularla. (listo)
- 7)  Recordá estructurar la navegación del sitio como vimos en clase, con secciones completas como "Home" (con información sobre la marca), "Productos" (como ya tenés) y una página adicional con información relevante sobre la empresa. (listo)
-  Como se trata de un e-commerce, es esperable que el sitio tenga más secciones, por lo que te recomiendo expandirlo lo máximo posible, manteniendo consistencia visual entre todas las páginas. (listo)
-  8) A nivel técnico, el código SCSS necesita una mejor indentación, así como un uso más eficiente de & para evitar repeticiones (listo)
-  9) Asegurate de que el sitio sea completamente responsive, utilizando unidades relativas y media queries bien estructuradas. (listo)
-  10) Finalmente, tu repositorio en GitHub debe incluir un .gitignore correctamente configurado. Con estos ajustes vas a lograr un proyecto más completo, profesional y funcional. (listo)
-  
+
+
+
+Entrega  Final
+
+
+
+Puede contener un único documento HTML, o varios, de acuerdo a cómo has estructurado tu proyecto.
+[DONE]
+
+documentos CSS
+Debe contener al menos un archivo CSS o, en su defecto, un framework CSS como Bootstrap, Tailwind, Materialize o cualquier otro que consideres necesario para desarrollar una interfaz gráfica acorde para tu proyecto. [DONE]
+
+Archivos JavaScript
+Debe contener al menos dos archivos JavaScript, referenciados en el o los documentos HTML donde desarrollas la interfaz gráfica de tu simulador. [DONE]
+Debe contener al menos un archivo en formato .JSON, el cual será tu base de datos simulada. Si utilizas un servicio de backend en nube, asegúrate de que el mismo esté abierto a ser utilizado desde cualquier URL. [Se hace una llamada un API]
+
+Recursos adicionales
+Incluye una subcarpeta de assets con las imágenes, videos, y otros elementos multimedia necesarios para la funcionalidad de tu simulador interactivo.[DONE]
+Si tu proyecto cuenta con alguna particularidad o pre-configuración a realizar antes de probarlo, incluye un archivo readme.md en el mismo para guiar al docente corrector sobre los previos a realizar antes de probarlo. [PENING]
+
+
+Uso de DOM
+Tu aplicación JavaScript debe interactuar con HTML utilizando DOM y los eventos necesarios.
+
+Arrays
+Todos los arrays de objetos que utilices dentro de tu aplicación deben ser convertidos a un archivo en formato .JSON y accedidos mediante la tecnología Fetch.
+Lógica de tu aplicación
+El simulador interactivo debe completar todo el circuito o proceso de negocio, de acuerdo a la temática del mismo. Debes obviar temas más complejos como ser un registro de usuario y login, pero no puedes obviar armar un circuito completo de una compra online, o de la cotización de productos o servicios.
+
+Uso de herramientas de terceros
+Debes incluir al menos una librería JS externa y debes eliminar el uso de herramientas más limitadas del lenguaje, como ser los cuadros de diálogo Prompt, Confirm y Alert, además de eliminar todo rastro de mensajes en la consola JS de las Herramientas para Desarrollador (DevTools).
+
+Código claro
+Todo tu código debe ser claro y estar correctamente estructurado para su lectura. Puedes dejar comentarios breves en el código, pero no puedes dejar código en desuso/comentado que complique la lectura y análisis del mismo durante el período de corrección.
+Evita utilizar herramientas de Minificación de código para esta instancia como también incluir recursos pesados dentro del proyecto.
+
+
+Uso de DOM
+JavaScript debe estar integrado con HTML mediante DOM y Eventos. No debes mostrar productos o servicios de tu simulador generados de forma estática en HTML. Todo esto debe provenir de JavaScript, creando el HTML dinámico mediante Template Strings + Literals.
+
+Interfaz visual
+Tus documentos HTML deben integrar CSS nativo o un Framework como los mencionados al inicio de este documento. Tu aplicación debe contener una estética visual más o menos acorde, y no debe ser solamente una estructura HTML.
+Tus documentos HTML no deben contener código JS.
+
+Valida y controla los errores
+Integra las herramientas necesarias para controlar errores, como ser el uso de try - catch - finally. No muestres errores de JavaScript en la interfaz de usuario, muestra errores utilizando mensajes del estilo UX. El usuario no tiene porqué conocer los aspectos técnicos de tu aplicación.
+
+Utiliza archivos JSON como base de datos/backend
+Si bien puedes sumar servicios en nube como Mockapi o Firebase, preferimos que armes todo tu “backend” en archivos JSON. Evitas que un servicio en nube pueda estar caído al momento de corregir tu entrega, o que la misma no pueda ser accedida desde una computadora diferente a la tuya por restricciones de IP, Puerto, o cualquier otro factor técnico.
+
+
+Circuito completo
+Realiza un análisis previo a crear tu proyecto, de cómo funcionan servicios similares al simulador que deseas realizar. Esto te permite enfocarte en desarrollar las funciones más importantes y pensar con tiempo cómo simular aquellas limitaciones técnicas que puedan existir para con tu simulador.
+
+- complejo + dinámico
+No pierdas tiempo realizando pantallas de registro - login - formulario para completar datos al finalizar una compra o cotización, ni otras secciones de tu simulador que no aporten a la interactividad del mismo.
+Si la lógica de tu simulador depende de un registro y un login, o de completar datos para el envío de información o el pago de una compra, ten a bien pre-cargar el contenido de estos formularios y cajas de texto para que la persona que corrige no deba llenarlos de forma manual.
+Recuerda que no solo vemos el código, también probamos la experiencia de uso de la aplicación, por lo tanto si tenemos que llenar formularios, o registrarnos, o loguearnos con datos específicos, debemos dedicar mucho más tiempo a las correcciones y cualquier error involuntario en estos procesos puede hasta invalidar la aprobación de tu proyecto.
+Enfoca tu energía al 100% en que la lógica del proceso de negocio de tu simulador funcione correctamente. No te enfoques en estos detalles secundarios.
+
+Guía de uso
+Si bien tu proyecto puede ser fácil y sencillo, agrega una guía de uso en un archivo readme.md, redactada de forma simple. Esto ayuda al corrector a entender ante qué tipo de aplicación web se encuentra, para tener presente la lógica de negocio que debe evaluar.
+

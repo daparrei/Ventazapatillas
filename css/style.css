@@ -102,6 +102,12 @@ h1 {
   color: #000; /* Cambia el color del texto si querés */
 }
 
+
+.producto-datalle-talles span.seleccionado {
+  background-color: black;
+  color: white;
+}
+
 .producto-datalle-imagenes img:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
@@ -195,6 +201,7 @@ h1 {
 }
 
 .producto-datalle-info a,
+.producto-datalle-info button,
 .envio-pag-pagos a,
 .confirmacionOrder a,
 .galeria-categoria-zapitilla-boton {
