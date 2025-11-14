@@ -32,15 +32,11 @@
 
 
   <main class="envio-pag-pagos">  
-    <h2>Selecciona el medio de pago</h2>
-    <div class="envio-pag-tarjetas">
-      <img src="../img/mercadopago.png" alt="Mercado Pago" title="Mercado Pago">
-      <img src="../img/visa.png" alt="Visa" title="Visa">
-      <img src="../img/mastercard.png" alt="Mastercard" title="Mastercard">
-      <img src="../img/rapipago.png" alt="Rapipago" title="Rapipago">
-      <img src="../img/pagofacil.png" alt="Pagofacil" title="Pagofacil">
-    </div>
-   
+     
+    <div id="total-carrito"> </div>
+
+
+
     <!-- Formulario de pago -->
     <div class="container my-5">
     <h2 class="mb-4">Datos de Pago</h2>
@@ -70,11 +66,13 @@
     </form>
   </div>
   <div class="d-flex justify-content-center">
-    <a href="../pages/order-confirmacion.html" >Confirmar Pedido</a>
+    <button id="procesar-pago" class="btn-finalizar" >Procesar Pago</a>
   </div>
-   
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
   <script src="../zapatillas.js"></script>
   <script src="../script_navbar.js"></script>
+  <script src="../script_envio-pago.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 
   </main>

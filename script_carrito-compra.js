@@ -127,10 +127,10 @@ function finalizarCompra() {
     return;
   }
 
-  mostrarToast("✅ ¡Gracias por tu compra!", "#333");
-  carritoProductos = [];
-  localStorage.removeItem("carrito");
-  inicializarCarritoCompra();
+  // Redirigir a página envio-pag.html 
+  window.location.href = "envio-pago.html";
+  
+ // inicializarCarritoCompra();
 }
 
 // Ejecutar al cargar
